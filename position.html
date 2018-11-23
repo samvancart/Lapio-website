@@ -5,26 +5,48 @@
     <style>
         .first-box-container {
             width: 200px;
-            height: 100px;
+            height: 150px;
             background-color: red;
             position: relative;
             left: 5px; top: 15px;
+            border-style: solid;
+            border-width:10px;
+            border-color: green;
+            line-height: 100px;            
         }
-
         .second-box-container {
             width: 200px;
-            height: 100px;
+            height: 150px;
             background-color: yellow;
             position: relative;
-            left: 250px; bottom: 100px;
+            left: 250px; bottom: 150px;
+            border-style: solid;
+            border-width:10px;
+            border-color: red;
+            line-height: 100px;
+            text-indent: 12px; 
+            
         }
-
         .third-box-container {
             width: 200px;
-            height: 100px;
+            height: 150px;
             background-color: green;
             position: relative;
-            left: 500px; bottom: 215px;
+            left: 500px; bottom: 315px;
+            border-style: solid;
+            border-width:10px;
+            border-color: yellow;
+            line-height: 100px;
+            text-indent: 12px; 
+        }
+        .text{    
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+            color: blue;
+            
         }
     </style>
 
@@ -32,13 +54,13 @@
 
 <body>
     <div class="first-box-container">
-        <p>Ensimmäinen elementti</p>
+        <p><span class="text">Ensimmäinen elementti</span></p>
     </div>
     <div class="second-box-container">
-        <p>Toinen elementti</p>
+        <p><span class="text">Toinen elementti</span></p>
     </div>
     <div class="third-box-container">
-        <p>Kolmas elementti</p>
+        <p><span class="text">Kolmas elementti</span></p>
     </div>
 </body>
 
